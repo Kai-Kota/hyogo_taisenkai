@@ -1,10 +1,12 @@
-import './App.css'
+import Header from './layout/header'
+import MainVisual from './layout/MainVisual'
 
 function App() {
 
   return (
     <>
-      <h1>Test Deploy</h1>
+      <Header/>
+      <MainVisual/>
     </>
   )
 }
