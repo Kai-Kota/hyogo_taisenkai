@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <header className="relative bg-black text-white flex items-center h-20 px-6 border-b border-neutral-900">
       <div className="flex items-center gap-4">
-        <img src="/assets/logo.png" alt="logo" className="h-12 w-auto drop-shadow-2xl" />
+        <img src={`${import.meta.env.BASE_URL}assets/logo.png`} alt="logo" className="h-12 w-auto drop-shadow-2xl" />
         <div className="hidden md:block">
           <div className="text-lg font-extrabold tracking-tight text-white">兵庫対戦会</div>
           <div className="text-xs text-green-400">Smash Bros. SPECIAL</div>

@@ -12,7 +12,7 @@ export default function Rules() {
             <div className="bg-neutral-900/60 p-6 rounded-lg border border-green-900/30">
               <h3 className="text-xl font-semibold text-green-400 mb-3">対戦ルール</h3>
               <img 
-                  src="/assets/rules.webp" 
+                  src={`${import.meta.env.BASE_URL}assets/rules.webp`} 
                   alt=""
                   className="object-contain w-full md:w-2/3 mx-auto"
                 />
@@ -31,8 +31,8 @@ export default function Rules() {
             <div className="bg-neutral-900/60 p-6 rounded-lg border border-green-900/30">
               <h3 className="text-xl font-semibold text-green-400 mb-3">Switch持参枠</h3>
               <div className="flex flex-col md:flex-row gap-4 mb-4">
-                <img src="/assets/jisan1.webp" alt="" className="object-contain w-full md:w-1/2"/>
-                <img src="/assets/jisan2.webp" alt="" className="object-contain w-full md:w-1/2"/>
+                <img src={`${import.meta.env.BASE_URL}assets/jisan1.webp`} alt="" className="object-contain w-full md:w-1/2"/>
+                <img src={`${import.meta.env.BASE_URL}assets/jisan2.webp`} alt="" className="object-contain w-full md:w-1/2"/>
               </div>
               <p className="text-gray-300">⚠️Nintendo Switch本体、ドックセット（ドック、AC、HDMI、純正GC接続タップ）をご持参ください。最新バージョン・全ファイター解放済みであることを確認してください。Switch2は不可。</p>
             </div>

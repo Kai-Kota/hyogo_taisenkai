@@ -2,7 +2,7 @@ export default function MainVisual() {
   return (
     <section className="relative w-full min-h-[500px] md:min-h-[600px] overflow-hidden bg-black">
       <img 
-        src="/assets/mainvisual_.jpg" 
+        src={`${import.meta.env.BASE_URL}assets/mainvisual_.jpg`}
         alt="mainvisual"
         className="absolute inset-0 w-full h-full object-cover opacity-40"
       />
