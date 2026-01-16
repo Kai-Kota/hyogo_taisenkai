@@ -8,23 +8,27 @@ export default function Access() {
             <div className="w-1 h-8 bg-green-500"></div>
             <h2 className="text-4xl font-extrabold tracking-tight">ACCESS</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-neutral-900/60 p-8 rounded-lg border border-green-900/30">
-              <h3 className="text-2xl font-semibold text-green-400 mb-4">会場</h3>
-              <p className="text-gray-300 text-lg">若竹生活公民館 3階 講堂</p>
-              <p className="text-gray-400 mt-2">〒662-0978<br/>兵庫県西宮市西福町15番12号</p>
+          <div className="grid gap-6">
+            <div className="flex flex-col md:flex-row gap-6">
+              <div className="bg-neutral-900/60 p-8 rounded-lg border border-green-900/30">
+                <h3 className="text-2xl font-semibold text-green-400 mb-4">会場</h3>
+                <p className="text-gray-300 text-lg">若竹生活公民館 3階 講堂</p>
+                <p className="text-gray-400 mt-2">〒662-0978<br/>兵庫県西宮市西福町15番12号</p>
               
-              <div className="mt-6">
-                <h4 className="font-semibold text-green-400 mb-2">アクセス</h4>
-                <ul className="space-y-2 text-gray-300">
-                  <li>• JR西宮駅から徒歩5分</li>
-                  <li>• 阪急西宮北口から徒歩15分</li>
-                </ul>
+                <div className="mt-6">
+                  <h4 className="font-semibold text-green-400 mb-2">アクセス</h4>
+                  <ul className="space-y-2 text-gray-300">
+                    <li>• JR西宮駅から徒歩5分</li>
+                    <li>• 阪急西宮北口から徒歩15分</li>
+                  </ul>
+                </div>
               </div>
-
-              <div className="mt-6">
-                <h4 className="font-semibold text-green-400 mb-2">来場時間</h4>
-                <p className="text-gray-300 text-sm">予選開始時間の30分前（10:30頃）までに受付を済ませてください。遅刻や呼び出しに応じない場合はDQ（欠場）となります。</p>
+              <div className="bg-neutral-900/60 rounded-lg border border-green-900/30 overflow-hidden">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.591341318905!2d135.34828277538742!3d34.74069387290552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000f24226e90055%3A0x50138ecd25b008cf!2z6KW_5a6u5biC56uLIOiLpeerueWFrOawkemkqA!5e0!3m2!1sja!2sjp!4v1768539556116!5m2!1sja!2sjp" 
+                  className="w-full md:w-120 h-70 md:h-96" 
+                  loading="lazy" 
+                  referrerpolicy="no-referrer-when-downgrade"
+                />
               </div>
             </div>
 
@@ -32,12 +36,12 @@ export default function Access() {
               <h3 className="text-2xl font-semibold text-green-400 mb-4">お問い合わせ</h3>
               <div className="space-y-4">
                 <div>
-                  <div className="text-sm text-gray-400">対戦会 Twitter</div>
-                  <div className="text-green-400 font-medium">@hyogo_ssbu</div>
+                  <div className="text-sm text-gray-400">対戦会 Xアカウント</div>
+                  <a href="https://x.com/hyogo_ssbu" className="text-green-400 font-medium underline" target="_blank">@hyogo_ssbu</a>
                 </div>
                 <div>
-                  <div className="text-sm text-gray-400">主催 Twitter</div>
-                  <div className="text-green-400 font-medium">@kynssbu0318_sp</div>
+                  <div className="text-sm text-gray-400" tar>主催 Xアカウント</div>
+                  <a href="https://x.com/kyonssbu0318" className="text-green-400 font-medium underline" target="_blank">@kyonssbu0318</a>
                 </div>
                 <div>
                   <div className="text-sm text-gray-400">配信チャンネル</div>

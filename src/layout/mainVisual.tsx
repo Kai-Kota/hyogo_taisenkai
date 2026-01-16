@@ -24,15 +24,6 @@ export default function MainVisual() {
           <p className="text-gray-300 text-lg max-w-2xl ml-5">
             熱い対戦が繰り広げられる兵庫県最大級のスマブラ大会。初心者から上級者まで、すべてのプレイヤーを歓迎します。
           </p>
-
-          <div className="ml-5 flex items-center gap-4 mt-4">
-            <a href="#about" className="inline-flex items-center gap-2 bg-gradient-to-r from-green-600 to-emerald-500 hover:from-green-500 hover:to-emerald-400 text-white font-semibold py-3 px-6 rounded-md shadow-lg transition">
-              詳細を見る
-            </a>
-            <a href="#schedule" className="inline-flex items-center gap-2 border border-green-500/30 text-green-400 hover:bg-green-900/20 py-3 px-6 rounded-md transition">
-              スケジュール
-            </a>
-          </div>
         </div>
       </div>
 
