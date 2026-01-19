@@ -14,8 +14,8 @@ export default function MainVisual() {
           <div className="flex items-center gap-3">
             <div className="w-2 h-16 bg-green-500"></div>
             <div>
-              <div className="text-sm text-green-400 tracking-widest uppercase">Hyogo Tournament</div>
-              <h1 className="text-5xl md:text-7xl font-extrabold text-white drop-shadow-2xl tracking-tight">
+              <div className="text-sm text-green-400 tracking-widest uppercase" style={{fontFamily: "'Yuji Syuku', serif"}}>Hyogo Tournament</div>
+              <h1 className="text-5xl md:text-7xl font-extrabold text-white drop-shadow-2xl tracking-tight" style={{fontFamily: "'Yuji Syuku', serif"}}>
                 兵庫県スマブラ対戦会
               </h1>
             </div>
